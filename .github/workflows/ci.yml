@@ -16,4 +16,4 @@ jobs:
         run: sudo apt install lua5.3
       
       - name: Run the Lua script
-        run: ./printnodev.lua
+        run: ./testsum.lua
