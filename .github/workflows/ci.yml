@@ -15,5 +15,5 @@ jobs:
       - name: Install Lua
         run: sudo apt install lua5.3
       
-      - name: Run the Lua script
+      - name: Test the sum program
         run: ./testsum.lua
