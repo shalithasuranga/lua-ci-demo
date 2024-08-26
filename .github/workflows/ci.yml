@@ -12,7 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: leafo/gh-actions-lua@v10
+      - name: Install Lua
+        run: sudo apt install lua5.3
       
       - name: Run a one-line script
         run: lua -v
