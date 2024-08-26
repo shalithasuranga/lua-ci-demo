@@ -12,5 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      - uses: leafo/gh-actions-lua@v10
+      
       - name: Run a one-line script
         run: lua -v
