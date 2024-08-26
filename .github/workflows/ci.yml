@@ -15,5 +15,5 @@ jobs:
       - name: Install Lua
         run: sudo apt install lua5.3
       
-      - name: Run a one-line script
-        run: lua -v
+      - name: Run the Lua script
+        run: ./printnodev.lua
