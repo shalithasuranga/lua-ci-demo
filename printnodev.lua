@@ -3,7 +3,7 @@
 local vpat = "([%d]+.[%d]+.[%d]+)"
 
 function getnodev(str)
-    return io.popen("node --version")
+    return io.popen("node --versiond")
         :read("*a")
         :gsub("\n", "")
         :match(vpat)
